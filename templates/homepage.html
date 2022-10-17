@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <title>SisCon CeV 2022 - home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body class="fundo">
+       <header>
+
+           <nav class="navBar">
+              <div class="logoconteiner">
+
+                  <img class= "logo" src="{{url_for('static', filename='Logo.png')}}" />
+                 <h1 class="texto1"> SisCon </h1>
+                  <ul>
+                   <li>
+
+                           Cadastrar
+                   </li>
+
+                   <li>
+                       Filmes
+                   </li>
+                   <li>
+                     Login
+                   </li>
+               </ul>
+              </div>
+
+
+           </nav>
+    </header>
+    <section>
+       <div class="expositorFilmeConteiner">
+        <img class= "expositorFilme" src="{{url_for('static', filename='Pantera-Negra-Wakanda-Forever.png')}}" />
+        <img class= "expositorFilme" src="{{url_for('static', filename='sonic_2.png')}}" />
+        <img class= "expositorFilme" src="{{url_for('static', filename='wick3.png')}}" />
+    </div>
+        <div class="exposositorTexto">
+            <h1> É curioso como as cores do mundo real <br> parecem muito mais reais quando vistas no cinema.</h1>
+            <p>Laranja Mêcanica</p>
+
+            <h4> <i>Num filme o que importa não é a realidade, <br>mas o que dela possa extrair a imaginação.</i> </h4>
+            <h5>Charles Chaplin</h5>
+        </div>
+             <div class="botoesConteiner">
+               <button ><a href="" class="myButton">Comprar Ingressos</a></button>
+               <button ><a href="" class="myButton">Cadastrar</a> </button>
+            </div>
+</section>
+    <footer> Aplicativo feito para tcc sem fins lucrativos</footer>
+
+</body>
+</html>
