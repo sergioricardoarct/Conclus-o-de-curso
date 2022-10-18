@@ -135,6 +135,74 @@ footer{
 /**Menu login**/
 
 
+.imagendefundo{
+    align content: center;
+    position: absolute;
+    z-index: -1;
+    width:60%
 
+  }
+.tamanhoMaximo{
+    display: block;
+    z-index: 1;
+    width: 530px;
+    background: aqua;
+    index:2;
+}
+.wrap-login100 {
+    margin: 60px;
+    width: 520px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.p-r-50 {
+    padding-right: 50px;
+}
+
+.p-b-50 {
+    padding-bottom: 50px;
+}
+
+.p-t-72 {
+    padding-top: 72px;
+}
+
+.login100-form-title {
+    display: block;
+    width: 100%;
+    font-family: Poppins-Bold;
+    font-size: 39px;
+    color: #333;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #dbdbdb;
+    margin-bottom: 45px;
+}
+.flex-m {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+.container-login100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 
 /**Menu Gerente**/
