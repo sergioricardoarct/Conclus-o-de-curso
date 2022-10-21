@@ -15,16 +15,11 @@
                   <img class= "logo" src="{{url_for('static', filename='Logo.png')}}" />
                  <h1 class="texto1"> SisCon </h1>
                   <ul>
-                   <li>
+                   <li><a href="{{url_for('cadastro')}}">Cadastrar</a></li>
 
-                           Cadastrar
-                   </li>
-
+                    <li><a href="{{url_for('filme')}}">Filmes</a></li>
                    <li>
-                       Filmes
-                   </li>
-                   <li>
-                     Login
+                      <li><a href="{{url_for('login')}}">Login</a></li>
                    </li>
                </ul>
               </div>
@@ -34,9 +29,9 @@
     </header>
     <section>
        <div class="expositorFilmeConteiner">
-        <img class= "expositorFilme" src="{{url_for('static', filename='Pantera-Negra-Wakanda-Forever.png')}}" />
-        <img class= "expositorFilme" src="{{url_for('static', filename='sonic_2.png')}}" />
-        <img class= "expositorFilme" src="{{url_for('static', filename='wick3.png')}}" />
+           <img class= "expositorFilme" src="{{url_for('static', filename='pantera.png')}}" />
+           <img class= "expositorFilme" src="{{url_for('static', filename='sonic_2.png')}}" />
+           <img class= "expositorFilme" src="{{url_for('static', filename='wick3.png')}}" />
     </div>
         <div class="exposositorTexto">
             <h1> É curioso como as cores do mundo real <br> parecem muito mais reais quando vistas no cinema.</h1>
@@ -46,8 +41,8 @@
             <h5>Charles Chaplin</h5>
         </div>
              <div class="botoesConteiner">
-               <button ><a href="" class="myButton">Comprar Ingressos</a></button>
-               <button ><a href="" class="myButton">Cadastrar</a> </button>
+               <button ><a href="{{url_for('comprar')}}" class="myButton" >Comprar Ingressos</a></button>
+               <button ><a href="{{url_for('cadastro')}}" class="myButton">Cadastrar</a> </button>
             </div>
 </section>
     <footer> Aplicativo feito para tcc sem fins lucrativos</footer>

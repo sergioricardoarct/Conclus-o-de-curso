@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="fundoa">
+
+    <form class="formulario">
+        <h1 class="cadastroh1">CADASTRO</h1>
+
+        <p>Nome<input type="text" id="nomelogin" name="Nome completo" placeholder="Seu nome"/></p>
+        <p>Email</p><input type="email" id="email" name="email" placeholder="Seu Email"/>
+        <p>CPF<input type="text" id="numcpf" name="numcpf" placeholder="Só os números"/></p>
+        <p>Telefone</p><input type="tel" id="telefone" name="Telefone pattern="[0-9]{14}" placeholder="(xx) x xxxx-xxxx">
+        <button id="botaoSub" class="myButton" onclick="SubForm()">Cadastrar</button>
+
+    </form>
+
+
+    <div class="fundoa">
+        <div class="fundobranco">  </div>
+        <img class= "fundob" src="{{url_for('static', filename='sala-de-cinema.jpeg')}}" />
+    </div>
+</body>
+</html>
