@@ -15,9 +15,6 @@ def gerente():
 def administrador():
     return render_template('Administrador.html')
 
-@app.route("/filme")
-def filme():
-    return ("filme")
 
 @app.route('/cadastro')
 def cadastro():

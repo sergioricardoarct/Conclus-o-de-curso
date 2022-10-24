@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="596f1f00-f4a6-4358-ba36-3b25a25d6fe8" name="Changes" comment="21-10-2022">
-      <change afterPath="$PROJECT_DIR$/templates/Administrador.html" afterDir="false" />
+    <list default="true" id="596f1f00-f4a6-4358-ba36-3b25a25d6fe8" name="Changes" comment="24-10-2022 1040">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.py" beforeDir="false" afterPath="$PROJECT_DIR$/App.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cadastro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gerente.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gerente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/compradeIngresso.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/compradeIngresso.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666376734980</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="24-10-2022 1040">
+      <created>1666618876825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666618876825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +165,7 @@
     <MESSAGE value="Parte 1 - pagina principal" />
     <MESSAGE value="17-10-2022" />
     <MESSAGE value="21-10-2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="21-10-2022" />
+    <MESSAGE value="24-10-2022 1040" />
+    <option name="LAST_COMMIT_MESSAGE" value="24-10-2022 1040" />
   </component>
 </project>

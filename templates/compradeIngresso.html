@@ -18,15 +18,65 @@
                   <ul>
                    <li><a href="{{url_for('cadastro')}}">Cadastrar</a></li>
 
-                    <li><a href="{{url_for('filme')}}">Filmes</a></li>
+                    <li><a href="{{url_for('homepage')}}">Menu Principal</a></li>
                    <li>
                       <li><a href="{{url_for('login')}}">Login</a></li>
                    </li>
                </ul>
               </div>
-
-
            </nav>
+        <section class="barraSalas">
+           <h1> Filmes em cartaz </h1>
+          <div>
+           <button ><a href="{{url_for('cadastro')}}" class="myButton">Sala 1</a> </button>
+           <button ><a href="{{url_for('cadastro')}}" class="myButton">Sala 2</a> </button>
+           <button ><a href="{{url_for('cadastro')}}" class="myButton">Sala 3</a> </button>
+        </section>
 
-</body>
+           <section>
+              <section class= "posterFilme">
+               <div>
+                    <img class= "posters" src="{{url_for('static', filename='pantera.png')}}" />
+               </div>
+               <div>
+                    <img class= "posters"  src="{{url_for('static', filename='sonic_2.png')}}" />
+               </div>
+               <div>
+                    <img class= "posters"  src="{{url_for('static', filename='wick3.png')}}" />
+               </div>
+                  <div>
+                    <img class= "posters" src="{{url_for('static', filename='pantera.png')}}" />
+               </div>
+               </section>
+           </section>
+
+                <section class="SelecaoFilme">
+                    <div class="filmePropriedade">
+                        <div class="miniaturaEDescricao">
+                            <div class="filmeParaAssistir">
+                                 <img class= "posters"  src="{{url_for('static', filename='sonic_2.png')}}" />
+                            </div>
+                            <div class="propriedadeDoFilme">
+                                <h2>Sonic 2</h2>
+                                <p><strong>Classisficação Hetaria </strong> 12 anos</p>
+                                <p><strong>Duração </strong> 1h22min </p>
+                            </div>
+                        </div>
+                        <div class="descriçãoDoFilme">
+                            <h3><strong>Descrição</strong></h3>
+                            <p> Sonic se junta ao seu próprio coadjuvante, Tails, e juntos embarcarão em uma jornada pelo mundo para encontrar a esmeralda, antes que ela caia em mãos erradas.</p>
+                        </div>
+                    </div>
+                       <div class="quantidadeDeIngressos">
+                              <div><p>Quantidade de ingressos</p></div>
+                           <div class="selecaoDeQuatidade">
+                                  <div> <p>-</p></div>
+                                  <div> <p class="quantidadeNumero">2</p></div>
+                                  <div><p>+</p></div>
+                           </div>
+                           <button ><a href="{{url_for('cadastro')}}" class="myButton">Comprar ingresso </a> </button>
+                        </div>
+
+               </section>
+    </body>
 </html>

@@ -274,7 +274,7 @@ footer{
 /**Menu gerente**/
 
 .ladoAdcionarFilme{
-    background: #ed2259;
+    /* background: #ed2259; */
     float: left;
     margin-top: 50px;
     margin-left: 35px;
@@ -290,9 +290,103 @@ footer{
 }
 .ladoDoGerente{
     float: right;
-    background: #ed2259;
+    background:#1d0e2f;
     margin-top: 50px;
     margin-right: 35px;
     width: 700px;
     height: 448px;
+}
+
+/**Menu filmes**/
+
+.barraSalas{
+   height: 50px;
+    margin: 35px;
+    /* background:#ed2259; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.barraSalas div{
+    /* background:#813b3b; */
+    width: 750px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+.posterFilme{
+    /* background:#ed2259; */
+    border-radius:10px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: row;
+    align-content:stretch;
+    justify-content: space-between;
+    align-content: center;
+}
+.posters{
+    width: 250px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: row;
+    align-content:stretch;
+    justify-content: space-between;
+    align-content: center;
+}
+.miniaturaEDescricao{
+    display: flex;
+    flex-direction: row;
+    align-content:stretch;
+    justify-content: flex-start;
+    align-content: center;
+}
+.filmePropriedade{
+    background: #1d0e2f;
+    width: 750px;
+    height: 450px;
+    margin: 35px;
+    border-radius:10px;
+    border: 1px #ffffff solid;        
+    
+}
+.filmeParaAssistir{
+    width: 250px;
+    border-radius:10px;
+    border: 1px #ffffff solid;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.propriedadeDoFilme, .descriçãoDoFilme{
+    margin: 25px;
+}
+.quantidadeDeIngressos{
+    margin-top: 100px;
+    /* background: #ed2259; */
+    width: 550px;
+    height: 250px;
+    text-align: center;
+   
+}
+.SelecaoFilme{
+    display: flex;
+    flex-direction: row;
+    align-content:baseline;
+    justify-content: flex-start;
+    align-content:center;
+}
+
+.selecaoDeQuatidade{
+    /* background:#333333; */
+    font-size: 70px;
+    display:flex;
+    margin-top: 90px;
+    justify-content: space-evenly;
+}
+.quantidadeNumero{
+    font-size: 100px;
 }
