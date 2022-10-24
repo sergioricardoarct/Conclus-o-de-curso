@@ -2,7 +2,7 @@
 <html lang="Pt-Br">
 <head>
     <meta charset="UTF-8">
-    <title>Gerente</title>
+    <title>Administrador</title>
     <meta name="viewport" content="user-scalable=no">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
@@ -16,7 +16,7 @@
                  <h1 class="texto1"> SisCon </h1>
                   <ul>
                    <li>
-                       <button ><a href="{{url_for('cadastro')}}" class="myButton">Cadastrar</a> </button>
+                       <button ><a href="{{url_for('gerente')}}" class="myButton">Gerente</a> </button>
                    </li>
 
                    <li>
@@ -32,14 +32,10 @@
      </header>
      <section>
          <div class="ladoAdcionarFilme">
-             <h2>Adicionar filmes </h2>
-             <p>Novo Filme </p><input type="text" id="Filme" name="filme" placeholder="+"/>
-             <p>Poster do filme </p><input type="image" id="FilmeImagen" name="filmeposter" />
-             <p>Horário </p><input type="time" id="HoraDoFilme" name="horaDoFilme" placeholder="+"/>
-             <h3>Salas</h3>
-                <p>Sala 1 </p><input type="radio" id="Sala" name="sala" placeholder=""/>
-                <p>Sala 2 </p><input type="radio" id="Sala" name="sala" placeholder=""/>
-                <p>Sala 3 </p><input type="radio" id="Sala" name="sala" placeholder=""/>
+             <h2>Relatório </h2>
+              <button id="botaoSub" class="myButton" onclick="Faturamento()">Faturamento</button>
+             <h2>Gerenciar Clientes </h2>
+              <button id="botaoSub" class="myButton" onclick="Faturamento()">Gerenciar Clientes</button>
          </div>
      </section>
     <section class="ladoDoGerente">

@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-Br">
 <head>
     <meta charset="UTF-8">
-    <title>Compra de Ingresso</title>
+    <title>Compra de Ingressos</title>
+    <meta name="viewport" content="user-scalable=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
-<body>
+
+<body class="fundo">
+       <header>
+
+           <nav class="navBar">
+              <div class="logoconteiner">
+
+                  <img class= "logo" src="{{url_for('static', filename='Logo.png')}}" />
+                 <h1 class="texto1"> SisCon </h1>
+                  <ul>
+                   <li><a href="{{url_for('cadastro')}}">Cadastrar</a></li>
+
+                    <li><a href="{{url_for('filme')}}">Filmes</a></li>
+                   <li>
+                      <li><a href="{{url_for('login')}}">Login</a></li>
+                   </li>
+               </ul>
+              </div>
 
 
+           </nav>
 
 </body>
 </html>

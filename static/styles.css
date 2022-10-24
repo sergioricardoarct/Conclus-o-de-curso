@@ -9,6 +9,7 @@
 
 .fundo{
     background: linear-gradient(216deg, rgba(53,22,40,1) 30%, rgba(29,14,47,1) 83%);
+    background-attachment: fixed;
 }
 
 /**Homepage**/
@@ -132,7 +133,7 @@ footer{
 }
 
 
-/**Menu login**/
+/**Menu Cadastro**/
 
 .fundoa{
     
@@ -232,17 +233,66 @@ footer{
     margin-bottom: 30px;
     width: 400px;
 }
-.buttonsub{
-    display: flex;
-    border:#1d0e2f solid 1px 0 0 0;
-    margin-top: 30px;
-    width: 30%;
-    justify-content: center;
-    margin-left: 35% ;
-}
 
 #botaoSub{
     width: fit-content;
     border:1px solid #1d0e2f ;
     margin-left: 200px;
+}
+
+
+/**Menu login**/
+
+.fundoc{
+    background: linear-gradient(216deg, rgba(53,22,40,1) 30%, rgba(29,14,47,1) 83%);
+}
+
+.fundobrancob{
+   
+    margin: auto;
+    margin-top: 35px;
+    width: 70vw;
+    height: 90vh;
+    background: #813b3b;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border:#ffffff 1px solid;
+    border-radius: 10px;
+    background: linear-gradient(166deg, rgba(53,22,40,1) 30%, rgba(29,14,47,1) 83%);
+    }
+.formulariologin{
+    
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    float:left;
+    
+}
+
+
+/**Menu gerente**/
+
+.ladoAdcionarFilme{
+    background: #ed2259;
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 350px;
+
+}
+.ladoAdcionarFilme p{
+    margin-top: 25px;
+
+}
+.ladoAdcionarFilme h2{
+    margin-bottom: 50px;
+}
+.ladoDoGerente{
+    float: right;
+    background: #ed2259;
+    margin-top: 50px;
+    margin-right: 35px;
+    width: 700px;
+    height: 448px;
 }

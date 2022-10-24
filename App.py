@@ -13,13 +13,13 @@ def gerente():
 
 @app.route('/Administrador')
 def administrador():
-    return ('ADM')
+    return render_template('Administrador.html')
 
 @app.route("/filme")
 def filme():
     return ("filme")
 
-@app.route('/cadstro')
+@app.route('/cadastro')
 def cadastro():
     return render_template("cadastro.html")
 

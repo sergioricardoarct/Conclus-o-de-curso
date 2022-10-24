@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-Br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no">
     <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
-<body>
+<body class="fundoc">
+  <div class="fundobrancob">
+
+     <div class="formulariologin">
+        <form>
+         <h1>Login</h1>
+          <p>Email</p><input type="email" id="email" name="email" placeholder="Seu Email"/>
+           <p>Senha</p><input type="password" id="senha" name="senha" placeholder="Sua senha"/>
+               </form>
+
+     </div>
+      <button id="botaoSub" class="myButton" onclick="SubForm()">Login</button>
+      <button ><a href="{{url_for('homepage')}}" class="myButton" >Retornar</a></button>
+  </div>
 
 
-
-</body>
+  </body>
 </html>

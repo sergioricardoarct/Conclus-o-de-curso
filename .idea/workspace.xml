@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="596f1f00-f4a6-4358-ba36-3b25a25d6fe8" name="Changes" comment="17-10-2022">
-      <change afterPath="$PROJECT_DIR$/templates/cadastro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/compradeIngresso.html" afterDir="false" />
+    <list default="true" id="596f1f00-f4a6-4358-ba36-3b25a25d6fe8" name="Changes" comment="21-10-2022">
+      <change afterPath="$PROJECT_DIR$/templates/Administrador.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.py" beforeDir="false" afterPath="$PROJECT_DIR$/App.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Pantera-Negra-Wakanda-Forever.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/pantera.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cadastro.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cadastro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gerente.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gerente.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
@@ -23,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -44,10 +45,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Sergio R/Desktop/seleÃ§Ã£o/par login/par login.html"
+    "last_opened_file_path": "C:/Users/Sergio R/Desktop/000-FACULDADE ADS/TCC/Sistema de controle e venda de ingressos - Tcc/templates"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergio R\Desktop\000-FACULDADE ADS\TCC\Sistema de controle e venda de ingressos - Tcc\templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Sergio R\Desktop\000-FACULDADE ADS\TCC\Sistema de controle e venda de ingressos - Tcc\static" />
       <recent name="C:\Users\Sergio R\Desktop\000-FACULDADE ADS\TCC\Sistema de controle e venda de ingressos - Tcc\static\css" />
@@ -105,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666051769316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="21-10-2022">
+      <created>1666376734980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666376734980</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Parte 1 - pagina principal" />
     <MESSAGE value="17-10-2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="17-10-2022" />
+    <MESSAGE value="21-10-2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="21-10-2022" />
   </component>
 </project>
