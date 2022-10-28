@@ -84,6 +84,8 @@ def comprar():
     return render_template('compradeIngresso.html')
 
 
+# ativar banco de dados
+db.create_all()
 
 #__colocar no ar__# #depois tirar o debug antes de enviar para a finalização#
 if (__name__ == "__main__"):
