@@ -10,6 +10,7 @@
 .fundo{
     background: linear-gradient(216deg, rgba(53,22,40,1) 30%, rgba(29,14,47,1) 83%);
     background-attachment: fixed;
+    
 }
 
 /**Homepage**/
@@ -248,7 +249,7 @@ footer{
 }
 
 .fundobrancob{
-   
+    
     margin: auto;
     margin-top: 35px;
     width: 70vw;
